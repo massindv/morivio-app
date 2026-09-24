@@ -8,8 +8,8 @@
     "forja": {
       "enabled": true,
       "api_url_template": "https://api.forja.ma/pages/proxy/content/{cuid}/stream_url?lang=fr",
-      "token_url_template": "https://vod.forja.ma/snrt?url={stream_url}",
-      "stream_url_template": "https://vod.forja.ma/vod/SNRT/{stream_id}/playlist.m3u8",
+      "token_url_template": "https://token.forja.ma/prod?url={stream_url}",
+      "stream_url_template": "https://vod.prod.forja.ma/vod/SNRT/{stream_id}/playlist.m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Referer": "https://forja.ma/"
