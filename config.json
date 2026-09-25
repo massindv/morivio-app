@@ -1,5 +1,53 @@
 {
   "version": "1.0.2",
+  "app": {
+    "server": {
+      "port": 8088,
+      "host": "127.0.0.1",
+      "auth": { "user": "forja", "pass": "forja" }
+    },
+    "forja": {
+      "api_base": "https://api.forja.ma",
+      "config_url": "https://forja.ma/configs",
+      "token_server": "https://token.forja.ma/prod",
+      "vod_domain": "vod.prod.forja.ma"
+    },
+    "channels": [
+      {
+        "id": "forja-movies",
+        "name": "Forja Films",
+        "logo": "https://forja.ma/movies.png",
+        "group": "Forja Live",
+        "sources": [{ "slug": "films", "limit": 500 }],
+        "min_duration": 600,
+        "episode_strategy": "first",
+        "fetch_limit": 0,
+        "enabled": true
+      },
+      {
+        "id": "forja-film-action",
+        "name": "Forja Films Action",
+        "logo": "https://forja.ma/film-action.png",
+        "group": "Forja Films",
+        "sources": [{ "slug": "action-film", "limit": 500 }],
+        "min_duration": 600,
+        "enabled": true
+      }
+    ],
+    "vod": {
+      "movie_categories": [
+        { "category_id": "1", "category_name": "Films", "slug": "films" }
+      ],
+      "series_categories": [
+        { "category_id": "101", "category_name": "Séries", "slug": "series" }
+      ]
+    },
+    "yasalonk": {
+      "enabled": true,
+      "registry_url": "https://dl.dropboxusercontent.com/scl/fi/.../custom-channels.json",
+      "id": "Yasalonk"
+    }
+  },
   "extractors": {
     "iptv_org": {
       "enabled": true,
