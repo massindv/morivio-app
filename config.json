@@ -1,5 +1,5 @@
 {
-  "version": "1.3.1",
+  "version": "1.3.2",
   
   "endpoints": {
     "channels_registry": "https://dl.dropboxusercontent.com/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=vegpl4os&dl=1",
@@ -27,10 +27,12 @@
   "odysee": {
     "referer": "https://odysee.com/",
     "origin": "https://odysee.com",
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "enabled": false
   },
   
   "forja": {
+    "enabled": false,
     "token_server": "https://token.forja.ma/prod",
     "vod_domain": "vod.prod.forja.ma",
     "vod_domain_fallbacks": ["vod.prod.forja.ma", "vod.forja.ma"],
@@ -38,37 +40,7 @@
     "fallback_api_bases": ["https://api.forja.ma", "https://api.prod.forja.ma"],
     "fallback_stream_url": "https://vod.forja.ma/vod/SNRT/82294/playlist.m3u8",
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "allowed_hosts": ["forja.ma", "prod.forja.ma", "googlevideo.com", "pegasus.5387692.xyz", "akamaized.net"],
-    
-    "server": {
-      "port": 8088,
-      "host": "127.0.0.1",
-      "auth": { "user": "forja", "pass": "forja" }
-    },
-    
-    "channels": [
-      {
-        "id": "forja-movies",
-        "name": "Forja Films",
-        "logo": "https://forja.ma/movies.png",
-        "group": "Forja Live",
-        "sources": [{ "slug": "films", "limit": 500 }],
-        "min_duration": 600,
-        "episode_strategy": "first",
-        "fetch_limit": 0,
-        "enabled": true
-      },
-      {
-        "id": "forja-film-action",
-        "name": "Forja Films Action",
-        "logo": "https://forja.ma/film-action.png",
-        "group": "Forja Films",
-        "sources": [{ "slug": "action-film", "limit": 500 }],
-        "min_duration": 600,
-        "enabled": true
-      }
-    ],
-    
+    "allowed_hosts": ["forja.ma", "prod.forja.ma", "googlevideo.com", "akamaized.net"],
     "vod": {
       "movie_categories": [
         { "category_id": "1", "category_name": "Films", "slug": "films" }
@@ -77,13 +49,11 @@
         { "category_id": "101", "category_name": "Séries", "slug": "series" }
       ]
     },
-    
     "yasalonk": {
       "enabled": true,
-      "registry_url": "/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=h9p371mw&dl=0",
+      "registry_url": "https://dl.dropboxusercontent.com/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=h9p371mw&dl=1",
       "id": "Yasalonk"
     },
-    
     "extractors": {
       "iptv_org": {
         "enabled": true,
