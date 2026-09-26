@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.1",
   
   "endpoints": {
     "channels_registry": "https://dl.dropboxusercontent.com/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=vegpl4os&dl=1",
@@ -9,7 +9,7 @@
   
   "rumble": {
     "oembed_url": "https://rumble.com/api/Media/oembed.json?url={source}",
-    "embedjs_url": "https://rumble.com/embedJS/u3/?request=video&ver=2&v={v}",
+    "embedjs_url": "https://rumble.com/embedJS/u3/?ifr=0&dref=&request=video&ver=2&v={v}",
     "referer": "https://rumble.com/",
     "origin": "https://rumble.com",
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -25,7 +25,8 @@
   
   "odysee": {
     "referer": "https://odysee.com/",
-    "origin": "https://odysee.com"
+    "origin": "https://odysee.com",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
   },
   
   "forja": {
