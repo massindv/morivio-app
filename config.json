@@ -1,5 +1,5 @@
 {
-  "version": "1.3.2",
+  "version": "1.3.0",
   
   "endpoints": {
     "channels_registry": "https://dl.dropboxusercontent.com/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=vegpl4os&dl=1",
@@ -19,7 +19,6 @@
   "stream": {
     "window_size": 24,
     "pre_roll": 3,
-    "transition_segments": 5,
     "segment_validation": true,
     "epoch_reference": 1704067200
   },
@@ -27,9 +26,9 @@
   "odysee": {
     "referer": "https://odysee.com/",
     "origin": "https://odysee.com",
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "enabled": false
-  },
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  }
+}
   
   "forja": {
     "enabled": false,
