@@ -1,29 +1,36 @@
 {
-  "version": "1.3.0",
-
+  "version": "1.4.2",
+  
   "endpoints": {
     "channels_registry": "https://dl.dropboxusercontent.com/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=vegpl4os&dl=1",
     "config_cache_ttl": 300,
     "meta_cache_ttl": 3600
   },
-
+  
   "rumble": {
     "oembed_url": "https://rumble.com/api/Media/oembed.json?url={source}",
     "embedjs_url": "https://rumble.com/embedJS/u3/?request=video&ver=2&v={v}",
     "referer": "https://rumble.com/",
     "origin": "https://rumble.com",
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "cookie": "__cf_bm=xxx; session=yyy; uui=zzz",
-  "impersonate": "safari17_0",
-  "cookie": "",
-  "request_delay": 0.5
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+    "impersonate": "safari17_0",
+    "cookie": "",
+    "request_delay": 0.5
   },
-
+  
   "stream": {
     "window_size": 24,
     "pre_roll": 3,
+    "transition_segments": 5,
     "segment_validation": true,
     "epoch_reference": 1704067200
+  },
+  
+  "odysee": {
+    "enabled": false,
+    "referer": "https://odysee.com/",
+    "origin": "https://odysee.com",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
   },
 
   "odysee": {
