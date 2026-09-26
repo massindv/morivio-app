@@ -1,90 +1,68 @@
 {
   "version": "1.0.2",
-  "app": {
-    "server": {
-      "port": 8088,
-      "host": "127.0.0.1",
-      "auth": { "user": "forja", "pass": "forja" }
-    },
-    "forja": {
-      "api_base": "https://api.forja.ma",
-      "config_url": "https://forja.ma/configs",
-      "token_server": "https://token.forja.ma/prod",
-      "vod_domain": "vod.prod.forja.ma"
-    },
-    "channels": [
-      {
-        "id": "forja-movies",
-        "name": "Forja Films",
-        "logo": "https://forja.ma/movies.png",
-        "group": "Forja Live",
-        "sources": [{ "slug": "films", "limit": 500 }],
-        "min_duration": 600,
-        "episode_strategy": "first",
-        "fetch_limit": 0,
-        "enabled": true
-      },
-      {
-        "id": "forja-film-action",
-        "name": "Forja Films Action",
-        "logo": "https://forja.ma/film-action.png",
-        "group": "Forja Films",
-        "sources": [{ "slug": "action-film", "limit": 500 }],
-        "min_duration": 600,
-        "enabled": true
-      }
-    ],
-    "vod": {
-      "movie_categories": [
-        { "category_id": "1", "category_name": "Films", "slug": "films" }
-      ],
-      "series_categories": [
-        { "category_id": "101", "category_name": "Séries", "slug": "series" }
-      ]
-    },
-    "yasalonk": {
-      "enabled": true,
-      "registry_url": "https://dl.dropboxusercontent.com/scl/fi/.../custom-channels.json",
-      "id": "Yasalonk"
-    }
+  "token_server": "https://token.forja.ma/prod",
+  "vod_domain": "vod.prod.forja.ma",
+  "vod_domain_fallbacks": ["vod.prod.forja.ma", "vod.forja.ma"],
+  "api_base": "https://api.forja.ma",
+  "fallback_api_bases": ["https://api.forja.ma", "https://api.prod.forja.ma"],
+  "fallback_stream_url": "https://vod.forja.ma/vod/SNRT/82294/playlist.m3u8",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "allowed_hosts": ["forja.ma", "prod.forja.ma", "googlevideo.com", "pegasus.5387692.xyz", "akamaized.net"],
+  
+  "server": {
+    "port": 8088,
+    "host": "127.0.0.1",
+    "auth": { "user": "forja", "pass": "forja" }
   },
+  
+  "channels": [
+    {
+      "id": "forja-movies",
+      "name": "Forja Films",
+      "logo": "https://forja.ma/movies.png",
+      "group": "Forja Live",
+      "sources": [{ "slug": "films", "limit": 500 }],
+      "min_duration": 600,
+      "episode_strategy": "first",
+      "fetch_limit": 0,
+      "enabled": true
+    },
+    {
+      "id": "forja-film-action",
+      "name": "Forja Films Action",
+      "logo": "https://forja.ma/film-action.png",
+      "group": "Forja Films",
+      "sources": [{ "slug": "action-film", "limit": 500 }],
+      "min_duration": 600,
+      "enabled": true
+    }
+  ],
+  
+  "vod": {
+    "movie_categories": [
+      { "category_id": "1", "category_name": "Films", "slug": "films" }
+    ],
+    "series_categories": [
+      { "category_id": "101", "category_name": "Séries", "slug": "series" }
+    ]
+  },
+  
+  "yasalonk": {
+    "enabled": true,
+    "registry_url": "/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=h9p371mw&dl=0",
+    "id": "Yasalonk"
+  },
+  
   "extractors": {
     "iptv_org": {
       "enabled": true,
       "streams_api_url": "https://iptv-org.github.io/api/streams.json"
     },
-    "forja": {
-      "enabled": true,
-      "api_url_template": "https://api.forja.ma/pages/proxy/content/{cuid}/stream_url?lang=fr",
-      "token_url_template": "https://token.forja.ma/prod?url={stream_url}",
-      "stream_url_template": "https://vod.prod.forja.ma/vod/SNRT/{stream_id}/playlist.m3u8",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "Referer": "https://forja.ma/"
-      },
-      "regex": {
-        "stream_id": [
-          "\\/vod\\/SNRT\\/(\\d+)\\/playlist\\.m3u8",
-          "\\/SNRT\\/(\\d+)\\/playlist\\.m3u8",
-          "\\/(\\d{4,})\\/"
-        ],
-        "token": [
-          "verify=([^&\"']+)",
-          "\"token\":\"([^\"]+)\"",
-          "\"verify\":\"([^\"]+)\""
-        ]
-      }
-    },
     "tivify": {
       "enabled": true,
       "channels_api_url": "https://mediasync.tvup.cloud/media/carrier/5ea94948bf8cbb0072c89fa6/channels.json",
       "event_api_url_template": "https://api.tvup.cloud/v4/mediafree/eventId/{event_id}?lang=en&planCode=TIVIFYANONYMOUS",
-      "media_api_url_template": "https://api.tvup.cloud/v4/mediafree/{media_id}?lang=en&planCode=TIVIFYANONYMOUS",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "Referer": "https://tivify.es",
-        "Origin": "https://tivify.es"
-      }
+      "media_api_url_template": "https://api.tvup.cloud/v4/mediafree/{media_id}?lang=en&planCode=TIVIFYANONYMOUS"
     }
   }
 }
