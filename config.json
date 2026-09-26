@@ -1,10 +1,11 @@
 {
-  "version": "1.4.2",
+  "version": "1.4.3",
   
   "endpoints": {
     "channels_registry": "https://dl.dropboxusercontent.com/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=vegpl4os&dl=1",
     "config_cache_ttl": 300,
-    "meta_cache_ttl": 3600
+    "meta_cache_ttl": 240,
+    "hls_cache_ttl": 300
   },
   
   "rumble": {
@@ -24,6 +25,13 @@
     "transition_segments": 5,
     "segment_validation": true,
     "epoch_reference": 1704067200
+  },
+  
+  "odysee": {
+    "enabled": false,
+    "referer": "https://odysee.com/",
+    "origin": "https://odysee.com",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
   },
   
   "odysee": {
