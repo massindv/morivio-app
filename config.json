@@ -1,27 +1,26 @@
-DEFAULT_CONFIG = {
-    "version": "1.4.4",
-    "endpoints": {
-        "channels_registry": "https://dl.dropboxusercontent.com/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=vegpl4os&dl=1",
-        "config_cache_ttl": 120,
-        "meta_cache_ttl": 60,       # ⚡ تخفيض الكاش إلى minute 1 لإنعاش روابط Rumble قبل انتهاء صلاحيتها
-        "hls_cache_ttl": 60,        # ⚡ تخفيض الكاش لملف M3U8 إلى minute 1
-    },
-    "rumble": {
-        "oembed_url": "https://rumble.com/api/Media/oembed.json?url={source}",
-        "embedjs_url": "https://rumble.com/embedJS/u3/?request=video&ver=2&v={v}",
-        "referer": "https://rumble.com/",
-        "origin": "https://rumble.com",
-        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
-        "impersonate": "safari17_0",
-        "cookie": "",
-        "request_delay": 0.5,
-    },
-    "stream": {
-        "window_size": 12,          # ⚡ تقليل النافذة لتقليل عدد أجزاء الفيديو المخزنة
-        "pre_roll": 2,
-        "transition_segments": 3,
-        "segment_validation": True,
-        "epoch_reference": 1704067200,
+{
+  "version": "1.5.4",
+  "endpoints": {
+    "channels_registry": "https://dl.dropboxusercontent.com/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=vegpl4os&dl=1",
+    "config_cache_ttl": 60,
+    "meta_cache_ttl": 180,
+    "hls_cache_ttl": 180
+  },
+  "rumble": {
+    "oembed_url": "https://rumble.com/api/Media/oembed.json?url={source}",
+    "embedjs_url": "https://rumble.com/embedJS/u3/?request=video&ver=2&v={v}",
+    "referer": "https://rumble.com/",
+    "origin": "https://rumble.com",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+    "impersonate": "safari17_0",
+    "cookie": "",
+    "request_delay": 0.05
+  },
+  "stream": {
+    "window_size": 10,
+    "epoch_reference": 1704067200
+  }
+}
     },
     "odysee": {
         "enabled": False,
