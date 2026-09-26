@@ -9,7 +9,7 @@
   
   "rumble": {
     "oembed_url": "https://rumble.com/api/Media/oembed.json?url={source}",
-    "embedjs_url": "https://rumble.com/embedJS/u3/?ifr=0&dref=rumble.com&request=video&ver=2&v={v}",
+    "embedjs_url": "https://rumble.com/embedJS/u3/?request=video&ver=2&v={v}",
     "referer": "https://rumble.com/",
     "origin": "https://rumble.com",
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
