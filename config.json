@@ -19,14 +19,6 @@
   "stream": {
     "window_size": 10,
     "epoch_reference": 1704067200
-  }
-}
-    },
-    "odysee": {
-        "enabled": False,
-        "referer": "https://odysee.com/",
-        "origin": "https://odysee.com",
-        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
   },
   "odysee": {
     "enabled": false,
@@ -70,22 +62,26 @@
           "slug": "series"
         }
       ]
-    },
-    "yasalonk": {
+    }
+  },
+  "yasalonk": {
+    "enabled": true,
+    "registry_url": "https://dl.dropboxusercontent.com/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=h9p371mw&dl=1",
+    "id": "Yasalonk"
+  },
+  "extractors": {
+    "iptv_org": {
       "enabled": true,
-      "registry_url": "https://dl.dropboxusercontent.com/scl/fi/cx1sflfvjjl1xdn2fkehc/custom-channels.json?rlkey=i9vpzvvufr5zy00j4q0nduzdm&st=h9p371mw&dl=1",
-      "id": "Yasalonk"
+      "streams_api_url": "https://iptv-org.github.io/api/streams.json"
     },
-    "extractors": {
-      "iptv_org": {
-        "enabled": true,
-        "streams_api_url": "https://iptv-org.github.io/api/streams.json"
-      },
-      "tivify": {
-        "enabled": true,
-        "channels_api_url": "https://mediasync.tvup.cloud/media/carrier/5ea94948bf8cbb0072c89fa6/channels.json",
-        "event_api_url_template": "https://api.tvup.cloud/v4/mediafree/eventId/{event_id}?lang=en&planCode=TIVIFYANONYMOUS",
-        "media_api_url_template": "https://api.tvup.cloud/v4/mediafree/{media_id}?lang=en&planCode=TIVIFYANONYMOUS"
+    "tivify": {
+      "enabled": true,
+      "channels_api_url": "https://mediasync.tvup.cloud/media/carrier/5ea94948bf8cbb0072c89fa6/channels.json",
+      "event_api_url_template": "https://api.tvup.cloud/v4/mediafree/eventId/{event_id}?lang=en&planCode=TIVIFYANONYMOUS",
+      "media_api_url_template": "https://api.tvup.cloud/v4/mediafree/{media_id}?lang=en&planCode=TIVIFYANONYMOUS",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept": "application/json"
       }
     }
   }
