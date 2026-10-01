@@ -1,0 +1,18 @@
+[
+  {
+    "id": "quran_radio_benmoussa",
+    "name": "إذاعة القرآن الكريم - عبد الرحمن بن موسى",
+    "artist": "القارئ عبد الرحمن بن موسى",
+    "logo_url": "https://i.ibb.co/qLcGyxsz/quran-mp3-1.png",
+    "banner_url": "https://images.unsplash.com/photo-1564769625905-50e93615e769?q=80&w=1920&auto=format&fit=crop",
+    "surahs_url": "https://raw.githubusercontent.com/massindv/morivio-app/refs/heads/main/surahs_benmoussa.json"
+  },
+  {
+    "id": "quran_radio_jabri",
+    "name": "إذاعة القرآن الكريم - محمد الجابري الحياني",
+    "artist": "القارئ محمد الجابري الحياني",
+    "logo_url": "https://i.ibb.co/qLcGyxsz/quran-mp3-1.png",
+    "banner_url": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?q=80&w=1920&auto=format&fit=crop",
+    "surahs_url": "https://raw.githubusercontent.com/massindv/morivio-app/refs/heads/main/surahs_jabri.json"
+  }
+]
