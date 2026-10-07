@@ -1,1 +1,53 @@
 
+{
+  "version": 2,
+  "providers": {
+    "aladhan": {
+      "timings_url": "https://api.aladhan.com/v1/timingsByCity"
+    },
+    "mawaqit": {
+      "mosque_map_url": "https://mawaqit.net/api/2.0/mosque/map/{countryCode}",
+      "mosque_page_url": "https://mawaqit.net/{slug}"
+    }
+  },
+  "countries": [
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "timezone": "Europe/Brussels",
+      "default_method": null,
+      "cities": [
+        {"name": "Antwerp"},
+        {"name": "Brussels"},
+        {"name": "Liège"},
+        {"name": "Beyne-Heusay"}
+      ]
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "timezone": "Africa/Casablanca",
+      "default_method": 21,
+      "cities": [
+        {"name": "Rabat"},
+        {"name": "Tangier"},
+        {"name": "Casablanca"},
+        {"name": "Marrakech"},
+        {"name": "Fes"}
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "timezone": "Europe/Paris",
+      "default_method": null,
+      "cities": [
+        {"name": "Paris"},
+        {"name": "Lyon"},
+        {"name": "Marseille"},
+        {"name": "Cachan"}
+      ]
+    }
+  ]
+}
+
