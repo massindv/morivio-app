@@ -1,1 +1,31 @@
-
+{
+  "schema_version": 1,
+  "name": "My StreamForge registry",
+  "updated": "2026-10-13",
+  "description": "Channels, movies, series and radio for my Morivio. Edit these files on GitHub ; the hub reads them, it never writes them.",
+  "sources": [
+    {
+      "id": "live-channels",
+      "type": "m3u",
+      "name": "Live TV",
+      "category": "YT-Live",
+      "path": ""
+    },
+    {
+      "id": "movies-m3u",
+      "type": "",
+      "name": "Movies (playlist)",
+      "category": "Movies",
+      "media_type": "movie",
+      "path": ""
+    },
+    {
+      "id": "radio-m3u",
+      "type": "m3u",
+      "name": "YtLive",
+      "category": "youtube Live",
+      "media_type": "radio",
+      "path": "https://raw.githubusercontent.com/massindv/morivio-app/refs/heads/main/youtubelive.json"
+    }
+  ]
+}
