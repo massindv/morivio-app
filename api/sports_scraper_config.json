@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-11",
+  "user_agent": "Morivio-SportsBot/1.0 (+https://morivio-admin.pages.dev)",
+  "sources": [
+    {
+      "name": "Morivio Livescore (HTML)",
+      "enabled": true,
+      "format": "html",
+      "url": "https://www.livescore.com/en/football/live/",
+      "regex": {
+        "match": "<a[^>]*data-match-id=\"(?<id>[^\"]+)\"[\\s\\S]*?data-home=\"(?<home>[^\"]+)\"[\\s\\S]*?data-away=\"(?<away>[^\"]+)\"[\\s\\S]*?data-score=\"(?<home_score>\\d+)-(?<away_score>\\d+)\"",
+        "flags": "g"
+      }
+    },
+    {
+      "name": "Generic JSON feed",
+      "enabled": false,
+      "format": "json",
+      "url": "https://example.com/fixtures.json",
+      "list_path": "matches",
+      "field_map": {
+        "id": "id",
+        "home": "home.name",
+        "away": "away.name",
+        "home_score": "score.home",
+        "away_score": "score.away",
+        "status": "status",
+        "kickoff": "kickoff",
+        "league": "league.name"
+      }
+    }
+  ]
+}
