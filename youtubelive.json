@@ -5,7 +5,7 @@
     "description": "البث المباشر لقناة السعودية الإخبارية لمتابعة الصلوات والأنشطة الرسمية والمستجدات من المملكة.",
     "logo": "https://googleusercontent.com",
     "category": "Live",
-    "channelid": "https://www.youtube.com/channel/UCe9902eLeKcvhTHi64m0QFQ/live"
+    "channelid": "UCe9902eLeKcvhTHi64m0QFQ"
   },
   {
     "id": "baladtv",
@@ -13,7 +13,7 @@
     "description": "قناة مصرية منوعة تقدم البرامج الإخبارية، الرياضية، والترفيهية والمسلسلات على مدار الساعة.",
     "logo": "https://googleusercontent.com",
     "category": "Entertainment",
-    "channelid": "https://www.youtube.com/channel/UCJWuV-EkLmRrGZ4afwUBenw/live"
+    "channelid": "UCJWuV-EkLmRrGZ4afwUBenw"
   },
   {
     "id": "elheddaftvcompte",
@@ -21,7 +21,7 @@
     "description": "القناة الرياضية الجزائرية الأولى، تغطية حصرية لأخبار كرة القدم المحلية والعالمية والكواليس.",
     "logo": "https://googleusercontent.com",
     "category": "Sports",
-    "channelid": "https://www.youtube.com/channel/UC9x5Chj61xxpXWgZ376pwjg/live"
+    "channelid": "UC9x5Chj61xxpXWgZ376pwjg"
   },
   {
     "id": "saudisunnahtv",
@@ -45,7 +45,7 @@
     "description": "القناة الرسمية الناطقة باللغة العربية لعرض حلقات ومقاطع المسلسل التاريخي التركي الشهير حريم السلطان.",
     "logo": "https://googleusercontent.com",
     "category": "Drama",
-    "channelid": "muhtesemyuzyilarabic"
+    "channelid": "UC3ZYW87-caZfpbeWwLCw57A"
   },
   {
     "id": "halafmradio_oman",
@@ -53,7 +53,7 @@
     "description": "الإذاعة الخاصة الأولى في سلطنة عمان، تقدم برامج ترفيهية، حوارية، ومقاطع غنائية منوعة.",
     "logo": "https://googleusercontent.com",
     "category": "Entertainment",
-    "channelid": "HALAFMRADIO-OMAN"
+    "channelid": "UCZbETNKiqxSsIUntKMCcEoA"
   },
   {
     "id": "asklaftananlamazarabic",
@@ -61,7 +61,7 @@
     "description": "القناة الرسمية العربية لمتابعة حلقات ومقاطع المسلسل الرومانسي الكوميدي التركي الحب لا يفهم الكلام.",
     "logo": "https://googleusercontent.com",
     "category": "Drama",
-    "channelid": "asklaftananlamazarabic"
+    "channelid": "UChfdidbjuzN-kctBB-DXdYQ"
   },
   {
     "id": "sozarabic",
@@ -69,7 +69,7 @@
     "description": "القناة الرسمية باللغة العربية لعرض حلقات ومشاهد من المسلسل التركي الأكشن والدرامي العهد.",
     "logo": "https://googleusercontent.com",
     "category": "Drama",
-    "channelid": "sozarabic"
+    "channelid": "UCHO4rI13Yf76ycmiBYVAKGw"
   },
   {
     "id": "wataniareplay",
@@ -77,7 +77,7 @@
     "description": "منصة إعادة عرض البرامج والمسلسلات والإنتاجات الدرامية للتلفزة الوطنية التونسية.",
     "logo": "https://googleusercontent.com",
     "category": "Entertainment",
-    "channelid": "WataniaReplay"
+    "channelid": "UCdvWVsmQBROkgcGzVep73oA"
   },
   {
     "id": "mayaandmary_arabic",
@@ -85,7 +85,7 @@
     "description": "أغاني وقصص أطفال مسلية ومترجمة للغة العربية لتعليم الأطفال القيم والعادات الحسنة بطرق ترفيهية.",
     "logo": "https://googleusercontent.com",
     "category": "Kids",
-    "channelid": "mayaandmary-arabic"
+    "channelid": "UCMEr4OcKQY85UsYYBOWLDSg"
   },
   {
     "id": "kurulusosmanarabic",
@@ -93,7 +93,7 @@
     "description": "القناة الرسمية لمتابعة مقاطع وحلقات المسلسل التاريخي التركي الضخم المؤسس عثمان مدبلجاً أو مترجماً للعربية.",
     "logo": "https://googleusercontent.com",
     "category": "Drama",
-    "channelid": "kurulusosmanarabic"
+    "channelid": "UCbBKamm-NPxA7p3XrYwr8aQ"
   },
   {
     "id": "mauritaniantv",
@@ -101,7 +101,7 @@
     "description": "قناة التلفزة الموريتانية الرسمية لنقل الأخبار الوطنية والبرامج الثقافية والسياسية في موريتانيا.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "mauritaniantv"
+    "channelid": "UCK3909NQ9meg2KDYKF51Kmg"
   },
   {
     "id": "alhiwarchannel",
@@ -109,7 +109,7 @@
     "description": "قناة حوارية عربية تبث من لندن تعنى بالقضايا السياسية والاجتماعية التي تهم المواطن العربي.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "alhiwarchannel"
+    "channelid": "UC_fNP2ettM5ius4BZ6G7MOg"
   },
   {
     "id": "quest_arabiya",
@@ -117,7 +117,7 @@
     "description": "قناة وثائقية ترفيهية تركز على برامج المغامرات، الطبيعة، العلوم، والهندسة الموجهة للمشاهد العربي.",
     "logo": "https://googleusercontent.com",
     "category": "Documentary",
-    "channelid": "quest.arabiya"
+    "channelid": "UCR7t5Okz1WlO5WktFE2iKWA"
   },
   {
     "id": "cartoonnetworkmena",
@@ -125,7 +125,7 @@
     "description": "القناة الرسمية لكرتون نتورك بالعربية، تعرض أفضل مسلسلات الرسوم المتحركة والفقرات الترفيهية للأطفال.",
     "logo": "https://googleusercontent.com",
     "category": "Kids",
-    "channelid": "CartoonNetworkMENA"
+    "channelid": "UCV_UnXMvco4uaqeMMBMWcxA"
   },
   {
     "id": "toyorlive",
@@ -133,7 +133,7 @@
     "description": "قناة أغاني وأناشيد الأطفال الأشهر في العالم العربي، محتوى تعليمي وترفيهي مخصص للصغار.",
     "logo": "https://googleusercontent.com",
     "category": "Kids",
-    "channelid": "toyorlive"
+    "channelid": "UCZbpK_Lgctew3YNELlG2ecw"
   },
   {
     "id": "alekhbariahsy",
@@ -141,7 +141,7 @@
     "description": "القناة الإخبارية الرسمية للجمهورية العربية السورية لمتابعة الأحداث والملفات السياسية والمحلية.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "AlekhbariahSY"
+    "channelid": "UClm30t2F4FHzzkN9Irtr-8A"
   },
   {
     "id": "samaartinternational8819",
@@ -149,7 +149,7 @@
     "description": "شركة إنتاج وتوزيع فني تقدم أرشيفاً ضخماً من المسلسلات الدرامية السورية والعربية والبرامج المنوعة.",
     "logo": "https://googleusercontent.com",
     "category": "Entertainment",
-    "channelid": "samaartinternational8819"
+    "channelid": "UCmGzgW9ZQfIJu7qA_IVHKgA"
   },
   {
     "id": "quranradiocairo",
@@ -157,7 +157,7 @@
     "description": "التسجيلات الرسمية والتلاوات العطرة والبرامج الدينية التابعة لإذاعة القرآن الكريم المصرية الشهيرة.",
     "logo": "https://googleusercontent.com",
     "category": "Islamic",
-    "channelid": "QuranradioCairo"
+    "channelid": "UCE0xp8NLzN5H1mS66wNdmzA"
   },
   {
     "id": "goldenlineproduction",
@@ -165,7 +165,7 @@
     "description": "إحدى كبرى شركات الإنتاج الدرامي في العالم العربي، تعرض مسلسلاتها السورية والعربية الحصرية والمشتركة.",
     "logo": "https://googleusercontent.com",
     "category": "Entertainment",
-    "channelid": "GoldenLineProduction"
+    "channelid": "UCyaYjMo5HeeTygGrKvLZssw"
   },
   {
     "id": "retrodramaa",
@@ -173,7 +173,7 @@
     "description": "قناة مخصصة لعرض كلاسيكيات الدراما والمسلسلات العربية والقديمة التي تركت بصمة في الذاكرة.",
     "logo": "https://googleusercontent.com",
     "category": "Drama",
-    "channelid": "RetroDramaa"
+    "channelid": "UCxXYJcJvmJbV-G3jFDuYrQQ"
   },
   {
     "id": "northafricatv",
@@ -181,7 +181,7 @@
     "description": "قناة منوعة تهتم بالشأن المغاربي وشمال إفريقيا، وتقدم برامج ثقافية واجتماعية وإخبارية منوعة.",
     "logo": "https://googleusercontent.com",
     "category": "Entertainment",
-    "channelid": "northafricatv"
+    "channelid": "UCcEyW5lpznicoLwrx2qD_Cg"
   },
   {
     "id": "syriatelevision",
@@ -197,7 +197,7 @@
     "description": "الذراع الإخباري لقناة رؤيا الأردنية، تغطية شاملة للأخبار المحلية، الإقليمية، والدولية بسرعة ومصداقية.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "RoyaNews"
+    "channelid": "UCsDQbVxQjBuFOa98vxRlbVQ"
   },
   {
     "id": "atfalwamwaheb",
@@ -205,7 +205,7 @@
     "description": "قناة استعراضية مخصصة للأطفال تقدم الأناشيد الترفيهية والتربوية والعديد من الفعاليات المباشرة.",
     "logo": "https://googleusercontent.com",
     "category": "Kids",
-    "channelid": "atfalwamwaheb"
+    "channelid": "UCRjAdwVy1IHXAAi7O3wtrDg"
   },
   {
     "id": "almashhadmedia",
@@ -213,7 +213,7 @@
     "description": "منصة وقناة تلفزيونية إخبارية رقمية تقودها برامج تفاعلية تقدم تحليلات عميقة وتجارب بصرية مبتكرة.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "almashhadmedia"
+    "channelid": "UCWnBTuzUUDpKhJPGuDQMynA"
   },
   {
     "id": "saudinewstv",
@@ -221,7 +221,7 @@
     "description": "القناة الإخبارية الرسمية للمملكة العربية السعودية، وتوفر تغطيات سياسية واقتصادية على مدار الساعة.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "SaudiNewsTV"
+    "channelid": "UCV01ajGl6nt09h40iDoHDNg"
   },
   {
     "id": "allahidan_mosque",
@@ -229,7 +229,7 @@
     "description": "قناة دينية تعنى بنشر التلاوات القرآنية والخطب والدروس الدينية المقامة في جامع اللحيدان.",
     "logo": "https://googleusercontent.com",
     "category": "Islamic",
-    "channelid": "AlLuhaydan_Mosque"
+    "channelid": "UC8kbl-ogCpKs0aNwoSpAk4g"
   },
   {
     "id": "osratouna",
@@ -237,7 +237,7 @@
     "description": "قناة أغاني وأناشيد تعليمية وترفيهية للأطفال باللغة العربية الفصحى المبسطة، وتستهدف بشكل خاص الأطفال.",
     "logo": "https://yt3.googleusercontent.com/e1j5eJXs-YInZyzWYahj0If0BgssXo_rxZ3WO2Yy2hxsBoQT658f1drvZuoy6t6dJl6eA1w9=s900-c-k-c0x00ffffff-no-rj",
     "category": "Kids",
-    "channelid": "UC-lHJZR3Gqxm24_Vd_AJ5Yw"
+    "channelid": "UCWIdqSQekeGmUWlSFeCiEnA"
   },
   {
     "id": "aljazeera",
@@ -277,7 +277,7 @@
     "description": "قناة الحدث الإخبارية تركز على تغطية الأحداث السياسية في العالم العربي والعالم وتقديم التحليلات الحصرية.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "UCrj5BGAbtmD-mN0Bw948m2A"
+    "channelid": "UCrj5BGAhtWxDfqbza9T9hqA"
   },
   {
     "id": "alqaheranewstv",
@@ -285,7 +285,7 @@
     "description": "قناة إخبارية مصرية تقدم تغطية شاملة للأخبار المحلية والإقليمية والدولية على مدار الساعة.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "UC-LYd1gdM-rT_gkhyK_42sA"
+    "channelid": "UCktyejXTxWaKfrgp1Oq7CMQ"
   },
   {
     "id": "deeniislamicbaatein",
@@ -293,7 +293,7 @@
     "description": "Islamic channel sharing beautiful Islamic status, quotes, Bayan, and Quranic teachings.",
     "logo": "https://googleusercontent.com",
     "category": "Islamic",
-    "channelid": "UCwMoe_Hj9M0MhN6XgM1bSgA"
+    "channelid": "UCDxiOXbSqgkAxS0a1elYdCA"
   },
   {
     "id": "skynewsarabia",
@@ -301,7 +301,7 @@
     "description": "قناة إخبارية عربية تقدم تغطية شاملة ومباشرة للأخبار الإقليمية والدولية ومواضيع الاقتصاد والرياضة.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "UC9A-WwN5NZVn8R8KqC2-0gQ"
+    "channelid": "UCIJXOvggjKtCagMfxvcCzAA"
   },
   {
     "id": "alarabytv_news",
@@ -309,7 +309,7 @@
     "description": "قناة إخبارية سياسية تسلط الضوء على القضايا العربية والملفات الدولية بمهنية وموضوعية عالية.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "UCdfa7XW67Jpuxn5QJ691fHg"
+    "channelid": "UC65i3Fyq91uiUkIS0i5GLNQ"
   },
   {
     "id": "arryadiatv",
@@ -317,7 +317,7 @@
     "description": "القناة الرياضية المغربية الرسمية التي تعنى بنقل البطولة الوطنية والرياضات المحلية والمنافسات القارية.",
     "logo": "https://googleusercontent.com",
     "category": "Sports",
-    "channelid": "UC92V_jG3Z4k9f9v3YV6mCmw"
+    "channelid": "UCRN5ho3UGhUi7ZCBe2G2f2w"
   },
   {
     "id": "snrtnews",
@@ -325,7 +325,7 @@
     "description": "المنصة الإخبارية الرسمية للشركة الوطنية للإذاعة والتلفزة المغربية لنقل آخر الأخبار والمستجدات الوطنية.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "UCbI8oT2pXm_eSgE30gT-9eQ"
+    "channelid": "UCvtQeUIfmelyvCDMbEPw9vw"
   },
   {
     "id": "dwnews",
@@ -333,7 +333,7 @@
     "description": "Deutsche Welle's international news channel providing deep analysis and insights from Berlin and around the globe.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "UCeBh6W9eG7-vV1p2C5_sFbw"
+    "channelid": "UCknLrEdhRCp1aegoMqRaCZg"
   },
   {
     "id": "france24_en",
@@ -341,7 +341,7 @@
     "description": "France 24 provides international news with a French perspective, covering international current events around the world.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "UC8AMAIFApb4o1q2628tqS1g"
+    "channelid": "UCQfwfsi5VrQ8yKZ-UWmAEFg"
   },
   {
     "id": "omantvnews",
@@ -349,7 +349,7 @@
     "description": "القناة الرسمية لأخبار تلفزيون سلطنة عمان، تقدم نشرات الأخبار والتغطيات الرسمية المحلية والدولية.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "UCfC0_Dk6LpYF1CqO779y0Tw"
+    "channelid": "UC6s4eLQAMHZtf3Or4sKV5Tw"
   },
   {
     "id": "adsportstv",
@@ -357,7 +357,7 @@
     "description": "قنوات أبوظبي الرياضية لتغطية البطولات المحلية والعالمية، برامج رياضية واستوديوهات تحليلية متميزة.",
     "logo": "https://googleusercontent.com",
     "category": "Sports",
-    "channelid": "UCy2_X7x6p_1Q4_c8m9Pq9Ag"
+    "channelid": "UCF8Fpc7bPHC8Jrflci-mUiQ"
   },
   {
     "id": "almalkatv",
@@ -365,7 +365,7 @@
     "description": "قناة إخبارية أردنية تقدم خدمة إخبارية عامة وتبث على مدار الساعة للمشاهد الأردني والعربي.",
     "logo": "https://googleusercontent.com",
     "category": "News",
-    "channelid": "UCl2cKjK194bK8d5Hk_V62uA"
+    "channelid": "UCUnFB63cvODh1z3YvLDkN6w"
   },
   {
     "id": "alkasstvsports",
@@ -373,7 +373,7 @@
     "description": "قنوات الكأس الرياضية القطرية المتخصصة في نقل البطولات الخليجية والآسيوية والمنافسات الرياضية الكبرى.",
     "logo": "https://googleusercontent.com",
     "category": "Sports",
-    "channelid": "UC1B3Vn2oWJ4B6o4N_7_c9Ag"
+    "channelid": "UCS_yHXNb5w5S74KQL_TK8Yw"
   },
   {
     "id": "kalamuallaha",
