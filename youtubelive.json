@@ -5,7 +5,7 @@
     "description": "البث المباشر لقناة السعودية الإخبارية لمتابعة الصلوات والأنشطة الرسمية والمستجدات من المملكة.",
     "logo": "https://googleusercontent.com",
     "category": "Live",
-    "channelid": "Saudi_Live"
+    "channelid": "https://www.youtube.com/channel/UCe9902eLeKcvhTHi64m0QFQ/live"
   },
   {
     "id": "baladtv",
@@ -13,7 +13,7 @@
     "description": "قناة مصرية منوعة تقدم البرامج الإخبارية، الرياضية، والترفيهية والمسلسلات على مدار الساعة.",
     "logo": "https://googleusercontent.com",
     "category": "Entertainment",
-    "channelid": "baladtv"
+    "channelid": "https://www.youtube.com/channel/UCJWuV-EkLmRrGZ4afwUBenw/live"
   },
   {
     "id": "elheddaftvcompte",
@@ -21,7 +21,7 @@
     "description": "القناة الرياضية الجزائرية الأولى، تغطية حصرية لأخبار كرة القدم المحلية والعالمية والكواليس.",
     "logo": "https://googleusercontent.com",
     "category": "Sports",
-    "channelid": "ElheddafTVCompte"
+    "channelid": "https://www.youtube.com/channel/UC9x5Chj61xxpXWgZ376pwjg/live"
   },
   {
     "id": "saudisunnahtv",
@@ -29,7 +29,7 @@
     "description": "البث المباشر واليومي من المسجد النبوي الشريف بالمدينة المنورة لنقل الأحاديث النبوية والصلوات.",
     "logo": "https://googleusercontent.com",
     "category": "Islamic",
-    "channelid": "SaudiSunnahTv"
+    "channelid": "UCROKYPep-UuODNwyipe6JMw"
   },
   {
     "id": "onsportfm",
@@ -37,7 +37,7 @@
     "description": "المحطة الرياضية الإذاعية والمرئية المصرية لتغطية مباريات الدوري والبرامج التحليلية.",
     "logo": "https://googleusercontent.com",
     "category": "Sports",
-    "channelid": "ONsportFM"
+    "channelid": "UCjkjZmwPrUPQR92jUECr13Q"
   },
   {
     "id": "muhtesemyuzyilarabic",
@@ -45,7 +45,7 @@
     "description": "القناة الرسمية الناطقة باللغة العربية لعرض حلقات ومقاطع المسلسل التاريخي التركي الشهير حريم السلطان.",
     "logo": "https://googleusercontent.com",
     "category": "Drama",
-    "channelid": "MuhtesemYuzyilArabic"
+    "channelid": "muhtesemyuzyilarabic"
   },
   {
     "id": "halafmradio_oman",
