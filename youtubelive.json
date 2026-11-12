@@ -6,6 +6,7 @@
     "logo": "https://googleusercontent.com",
     "category": "Live",
     "channelid": "UCe9902eLeKcvhTHi64m0QFQ"
+    "offline_stream_url": "https://raw.githubusercontent.com/massindv/videos/refs/heads/main/offlintv.m3u8"
   },
   {
     "id": "baladtv",
@@ -14,6 +15,7 @@
     "logo": "https://googleusercontent.com",
     "category": "Entertainment",
     "channelid": "UCJWuV-EkLmRrGZ4afwUBenw"
+    "offline_stream_url": "https://raw.githubusercontent.com/massindv/videos/refs/heads/main/offlintv.m3u8"
   },
   {
     "id": "elheddaftvcompte",
@@ -22,6 +24,7 @@
     "logo": "https://googleusercontent.com",
     "category": "Sports",
     "channelid": "UC9x5Chj61xxpXWgZ376pwjg"
+    "offline_stream_url": "https://raw.githubusercontent.com/massindv/videos/refs/heads/main/offlintv.m3u8"
   },
   {
     "id": "saudisunnahtv",
@@ -30,6 +33,7 @@
     "logo": "https://googleusercontent.com",
     "category": "Islamic",
     "channelid": "UCROKYPep-UuODNwyipe6JMw"
+    "offline_stream_url": "https://raw.githubusercontent.com/massindv/videos/refs/heads/main/offlintv.m3u8"
   },
   {
     "id": "onsportfm",
@@ -38,6 +42,7 @@
     "logo": "https://googleusercontent.com",
     "category": "Sports",
     "channelid": "UCjkjZmwPrUPQR92jUECr13Q"
+    "offline_stream_url": "https://raw.githubusercontent.com/massindv/videos/refs/heads/main/offlintv.m3u8"
   },
   {
     "id": "muhtesemyuzyilarabic",
@@ -46,6 +51,7 @@
     "logo": "https://googleusercontent.com",
     "category": "Drama",
     "channelid": "UC3ZYW87-caZfpbeWwLCw57A"
+    "offline_stream_url": "https://raw.githubusercontent.com/massindv/videos/refs/heads/main/offlintv.m3u8"
   },
   {
     "id": "halafmradio_oman",
