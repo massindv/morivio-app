@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "adhan_voices": [
+    {
+      "id": "omar_alamri_ma",
+      "name": "الأذان المغربي - عمر العمري",
+      "url": "https://ia902802.us.archive.org/22/items/Adhan_201606/adhan%201%20top.mp3"
+    },
+    {
+      "id": "makkah_adhan",
+      "name": "أذان الحرم المكي",
+      "url": "https://www.islamcan.com/audio/adhan/azan1.mp3"
+    }
+  ],
+  "tahlil_list": [
+    {
+      "id": "tahlil_fajr_1",
+      "name": "تهليل الفجر الخاشع",
+      "url": "https://ia902802.us.archive.org/22/items/Adhan_201606/adhan%201%20top.mp3"
+    }
+  ],
+  "adhkar_audio": {
+    "morning": [
+      {
+        "id": "sabah_afasy",
+        "name": "أذكار الصباح - مشاري العفاسي",
+        "url": "https://archive.org/download/AzkarAlSabahAlafasy/Azkar_Al-Sabah.mp3"
+      }
+    ],
+    "evening": [
+      {
+        "id": "masaa_afasy",
+        "name": "أذكار المساء - مشاري العفاسي",
+        "url": "https://archive.org/download/AzkarAlMasaaAlafasy/Azkar_Al-Masaa.mp3"
+      }
+    ],
+    "jummah_dua": [
+      {
+        "id": "jummah_dua_1",
+        "name": "دعاء يوم الجمعة (ساعة الاستجابة)",
+        "url": "https://player.odycdn.com/v6/streams/3a5af1f3eaf6b8c3df689f1a39370391cffcd6dd/ad2410.mp4",
+        "headers": {
+          "Referer": "https://odysee.com/",
+          "Origin": "https://odysee.com",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+        }
+      }
+    ],
+    "kahf": [
+      {
+        "id": "kahf_qazabri",
+        "name": "سورة الكهف - عمر القزابري (ورش)",
+        "url": "https://server11.mp3quran.net/qazabri/018.mp3"
+      }
+    ]
+  },
+  "wallpapers": {
+    "fajr_clear": {
+      "type": "image",
+      "url": "https://i.pinimg.com/1200x/a5/6f/4f/a56f4f46fe90100f14758c7b4c21e5c4.jpg"
+    },
+    "live_nature_loop": {
+      "type": "hls_video",
+      "url": "https://v1.pinimg.com/videos/iht/hls/54/ba/20/54ba20d70c87f6065a0c7a48bd551aba.m3u8"
+    }
+  },
+  "extra_reciters": [
+    {
+      "id": "omar_qazabri",
+      "name": "عمر القزابري (رواية ورش)",
+      "server_url": "https://server11.mp3quran.net/qazabri/"
+    }
+  ]
+}
