@@ -7,31 +7,71 @@
       "url": "https://ia902802.us.archive.org/22/items/Adhan_201606/adhan%201%20top.mp3"
     },
     {
-      "id": "makkah_adhan",
-      "name": "أذان الحرم المكي",
-      "url": "https://www.islamcan.com/audio/adhan/azan1.mp3"
+      "id": "omar_alamri_ma2",
+      "name": "omar alamri alfajr",
+      "url": "https://player.odycdn.com/v6/streams/bfcf687c8ff68141a894b27238dab83359988bea/f4e02b.mp4",
+      "headers": {
+        "Referer": "https://odysee.com/",
+        "Origin": "https://odysee.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "id": "omar_alamri_fajr",
+      "name": "omar alamri alfajr",
+      "url": "https://player.odycdn.com/v6/streams/e219f1c17d72be1e436fbe5c64ecaa7b1f52163a/a1f58e.mp4",
+      "headers": {
+        "Referer": "https://odysee.com/",
+        "Origin": "https://odysee.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "id": "atik_2m",
+      "name": "atik adhan maghrib",
+      "url": "https://player.odycdn.com/v6/streams/e219f1c17d72be1e436fbe5c64ecaa7b1f52163a/a1f58e.mp4",
+      "headers": {
+        "Referer": "https://odysee.com/",
+        "Origin": "https://odysee.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+      }
     }
   ],
   "tahlil_list": [
     {
       "id": "tahlil_fajr_1",
       "name": "تهليل الفجر الخاشع",
-      "url": "https://ia902802.us.archive.org/22/items/Adhan_201606/adhan%201%20top.mp3"
+      "url": "https://player.odycdn.com/v6/streams/010d581876d1dcf935022b25661099ff07e2eccb/e2a5f4.mp4",
+      "headers": {
+        "Referer": "https://odysee.com/",
+        "Origin": "https://odysee.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+      }
     }
   ],
   "adhkar_audio": {
     "morning": [
       {
-        "id": "sabah_afasy",
-        "name": "أذكار الصباح - مشاري العفاسي",
-        "url": "https://archive.org/download/AzkarAlSabahAlafasy/Azkar_Al-Sabah.mp3"
+        "id": "sabah_fadili",
+        "name": "أذكار الصباح - محسن الفاضلي",
+        "url": "https://player.odycdn.com/v6/streams/2d9ae6ab80ec2bfff6cb2ea92ebbf176aff375ef/9325a5.mp4",
+        "headers": {
+          "Referer": "https://odysee.com/",
+          "Origin": "https://odysee.com",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+        }
       }
     ],
     "evening": [
       {
-        "id": "masaa_afasy",
-        "name": "أذكار المساء - مشاري العفاسي",
-        "url": "https://archive.org/download/AzkarAlMasaaAlafasy/Azkar_Al-Masaa.mp3"
+        "id": "adili_afasy",
+        "name": "أذكار المساء - محسن الفاضلي",
+        "url": "https://player.odycdn.com/v6/streams/94f80f186f30b076af5bc43a3d95ca9d41e986d5/3938df.mp4",
+        "headers": {
+          "Referer": "https://odysee.com/",
+          "Origin": "https://odysee.com",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+        }
       }
     ],
     "jummah_dua": [
