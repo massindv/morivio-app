@@ -18,7 +18,7 @@
     },
     {
       "id": "omar_alamri_fajr",
-      "name": "omar alamri alfajr",
+      "name": "omar alamri alfajr 2",
       "url": "https://player.odycdn.com/v6/streams/e219f1c17d72be1e436fbe5c64ecaa7b1f52163a/a1f58e.mp4",
       "headers": {
         "Referer": "https://odysee.com/",
@@ -93,22 +93,5 @@
         "url": "https://server11.mp3quran.net/qazabri/018.mp3"
       }
     ]
-  },
-  "wallpapers": {
-    "fajr_clear": {
-      "type": "image",
-      "url": "https://i.pinimg.com/1200x/a5/6f/4f/a56f4f46fe90100f14758c7b4c21e5c4.jpg"
-    },
-    "live_nature_loop": {
-      "type": "hls_video",
-      "url": "https://v1.pinimg.com/videos/iht/hls/54/ba/20/54ba20d70c87f6065a0c7a48bd551aba.m3u8"
-    }
-  },
-  "extra_reciters": [
-    {
-      "id": "omar_qazabri",
-      "name": "عمر القزابري (رواية ورش)",
-      "server_url": "https://server11.mp3quran.net/qazabri/"
-    }
-  ]
+  }
 }
