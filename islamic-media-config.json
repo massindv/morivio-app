@@ -9,7 +9,7 @@
     {
       "id": "omar_alamri_ma2",
       "name": "omar alamri alfajr",
-      "url": "https://player.odycdn.com/v6/streams/bfcf687c8ff68141a894b27238dab83359988bea/f4e02b.mp4",
+      "url": "https://odysee.com/adhan-fajr:b",
       "headers": {
         "Referer": "https://odysee.com/",
         "Origin": "https://odysee.com",
@@ -29,7 +29,7 @@
     {
       "id": "atik_2m",
       "name": "atik adhan maghrib",
-      "url": "https://player.odycdn.com/v6/streams/e219f1c17d72be1e436fbe5c64ecaa7b1f52163a/a1f58e.mp4",
+      "url": "https://odysee.com/adhan-maghrib:e",
       "headers": {
         "Referer": "https://odysee.com/",
         "Origin": "https://odysee.com",
@@ -41,7 +41,7 @@
     {
       "id": "tahlil_fajr_1",
       "name": "تهليل الفجر الخاشع",
-      "url": "https://player.odycdn.com/v6/streams/010d581876d1dcf935022b25661099ff07e2eccb/e2a5f4.mp4",
+      "url": "https://odysee.com/tahleel-fajr:1",
       "headers": {
         "Referer": "https://odysee.com/",
         "Origin": "https://odysee.com",
@@ -54,7 +54,7 @@
       {
         "id": "sabah_fadili",
         "name": "أذكار الصباح - محسن الفاضلي",
-        "url": "https://player.odycdn.com/v6/streams/2d9ae6ab80ec2bfff6cb2ea92ebbf176aff375ef/9325a5.mp4",
+        "url": "https://odysee.com/adhkar-sbah-hassan-fadili:2",
         "headers": {
           "Referer": "https://odysee.com/",
           "Origin": "https://odysee.com",
@@ -66,7 +66,7 @@
       {
         "id": "adili_afasy",
         "name": "أذكار المساء - محسن الفاضلي",
-        "url": "https://player.odycdn.com/v6/streams/94f80f186f30b076af5bc43a3d95ca9d41e986d5/3938df.mp4",
+        "url": "https://odysee.com/adhkar-almsa2-hassan-fadili:9",
         "headers": {
           "Referer": "https://odysee.com/",
           "Origin": "https://odysee.com",
